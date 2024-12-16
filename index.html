@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <h1>Amazon </h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products" id="search-input">
+            <button id="search-btn">Search</button>
+        </div>
+        <nav class="nav-links">
+            <a href="#">Sign In</a>
+            <a href="#">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="hero">
+            <h2>Welcome to the Amazon!</h2>
+            <p>Discover the best deals and shop today.</p>
+        </section>
+
+        <!-- Product List Section -->
+        <section class="product-list">
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$19.99</p>
+                <button class="add-to-cart" onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$29.99</p>
+                <button class="add-to-cart" onclick="addToCart(2)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$39.99</p>
+                <button class="add-to-cart" onclick="addToCart(3)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Amazon. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
